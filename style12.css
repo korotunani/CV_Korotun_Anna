@@ -1,0 +1,209 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(https://media.istockphoto.com/id/465804737/de/foto/textur-papier.jpg?s=612x612&w=0&k=20&c=_bAdWOjf2X7-0WQ6iZTp9Fo3FLnZl9FqAZCva4DLpBs=)
+}
+
+.wraper{
+    width: 600px;   /*ширина самого резюме*/
+    height: 900px;  /*высота самого резюме*/
+    margin: 0 auto; /*выравниваем контейнер по центру страницы*/
+    background-color: rgb(101, 123, 139); /*цвет внутри резюме*/
+    margin-top: 20px;
+    display: flex;
+}
+
+.longwraper{ /*ЛЕВЫЙ БЛОК*/
+    position: relative; /*положение левого блока относительно страницы резюме*/
+    top: 20px; 
+    bottom: 20px;
+    width: 45%;   /*ширина левого блока относительно родителя резюме*/
+    height: 70%;  /*высота левого блока относительно родителя резюме*/
+    background-color: rgb(255, 238, 221);
+    display: inline-block; /* розовый и серый блоки идут в строку*/
+    min-height: 850px; /* высота розового блока*/
+    
+}
+
+.rightwraper{ /* ПРАВЫЙ БЛОК*/
+    position: relative; /*положение правого блока относительно страницы резюме*/
+    top: 20px; 
+    width: 45%;   /*ширина правого блока относительно родителя резюме*/
+    height: 70%;  /*высота правого блока относительно родителя резюме*/
+    display: inline-block; /* розовый и серый блоки идут в строку*/
+    min-height: 850px; /* высота правого блока*/
+    margin-left: 20px;
+}
+
+.photo{ /* Фотография*/
+    width: 150px;   /*ширина фото*/
+    height: 180px;  /*высота фото*/
+    background: url(https://media-exp1.licdn.com/dms/image/D4D03AQF-UhljtYJsiQ/profile-displayphoto-shrink_200_200/0/1668432062952?e=1675900800&v=beta&t=fw8uqVgst18MMAuka48QyPrfmFzGMgJwKwekQqLUjVA);
+    position: relative;    /*картинка располагается относительно своего родиетеля */
+    
+    /*расположение картинки в левом блоке */
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 40px;
+    margin-bottom: 1px;
+
+    /*расположение фото внутри своего блока (у фото есть свой блок) */
+    background-size: cover;  /*картинка не повторяется много раз */ 
+    background-position: center; /* расположение фото внутри блока*/
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Nick{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;  /*жирный шрифт*/
+    color: rgb(101, 123, 139);
+    text-align: center;
+
+}
+
+.profession{
+    font-size: 15px;
+    color: rgb(101, 123, 139);
+    text-align: center;
+    padding-top: 10px; /*отступ сверху*/
+}
+
+hr{
+    size: 50px; /*толщина линии*/
+    color: blue;
+    width: 160px; /*длина линии*/
+}
+
+.goal{
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(101, 123, 139);
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.maingoal{
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(101, 123, 139);
+    text-align: left;
+    padding-left: 10px;
+    line-height: 1.2
+}
+
+.contacts{
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgb(101, 123, 139);
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.directcontacts{
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(101, 123, 139);
+    text-align: left;
+    padding-left: 10px;
+    line-height: 1.2
+}
+
+.education{
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgb(101, 123, 139);
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.myeducation{
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(101, 123, 139);
+    text-align: left;
+    padding-left: 10px;
+    line-height: 1.5
+}
+
+.tools{
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(101, 123, 139);
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: rgb(255, 238, 221);
+    padding: 5px 5px 5px 5px;
+    margin-top: 25x;
+}
+
+.mytools{
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(255, 238, 221);
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.5
+}
+
+.knowledge{
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(101, 123, 139);
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: rgb(255, 238, 221);
+    padding: 5px 5px 5px 5px;
+    margin-top: 30px;
+}
+
+.myknowledge{
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(255, 238, 221);
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.5
+}
+
+.experience{
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(101, 123, 139);
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: rgb(255, 238, 221);
+    padding: 5px 5px 5px 5px;
+    margin-top: 30px;
+}
+
+.titlecompany{
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(255, 238, 221);
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.myexperience{
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(255, 238, 221);
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.5
+
+}
+
+
+
+
+
